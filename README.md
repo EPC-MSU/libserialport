@@ -94,6 +94,10 @@ make
 make install
 ```
 
+## Prebuilt binaries
+
+In case you just need the library binary files for your project you can find the library release for several OS version in `prebuilt` folder.
+
 API
 ===
 
