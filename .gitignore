@@ -48,5 +48,7 @@ src/x64/*
 
 # Other
 *.sdf
+src/*.sdf
 *.opensdf
 *.suo
+src/*.suo
