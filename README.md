@@ -47,7 +47,7 @@ Build (**Build** > **Build Solution**)
 
 ### Linux
 
-#### ubuntu 18
+#### ubuntu 18/20
 
 Before building check there is no brackets and other non-letter / number / underscore characters in the path to the folder.
 
@@ -55,8 +55,8 @@ Building instructions:
 
 ```shell
 chmod +x autogen.sh
-sudo apt-get install
-sudo apt-get install autoconf libtool libpcap0.8 libpcap0.8-dev dos2unix 
+sudo apt-get update
+sudo apt-get install autoconf libtool dos2unix 
 dos2unix *
 autoreconf -fi
 sudo ./autogen.sh
@@ -71,7 +71,7 @@ sudo ldconfig
 ```shell
 chmod +x autogen.sh
 sudo apt-get update
-sudo apt-get install install autoconf libtool libpcap0.8 libpcap0.8-dev dos2unix automake pkg-config
+sudo apt-get install autoconf libtool libpcap0.8 libpcap0.8-dev dos2unix automake pkg-config
 dos2unix *
 autoreconf -fi
 ./autogen.sh
